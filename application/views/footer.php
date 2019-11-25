@@ -1,5 +1,5 @@
 <footer>
-	<small>&copy;<span id="year">2018</span> </small>
+	<small>&copy;Copyright 2018 - <span id="year">2018</span> </small>
 </footer> 
 
 </body>
