@@ -6,12 +6,12 @@
 
         <div id="myCarousel" class="carousel  slide " data-ride="carousel" data-pause="hover" >
           
-		  <!-- Indicators 
+		  <!-- Indicators -->
 		  <ul class="carousel-indicators">
 		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		    <li data-target="#myCarousel" data-slide-to="1"></li>
 		    <li data-target="#myCarousel" data-slide-to="2"></li>
-		  </ul>-->
+		  </ul>
 		  
 		  <!-- The slideshow -->
 		  <div class="carousel-inner ">

@@ -2,15 +2,17 @@
   
   display:block;
   margin:auto;
-  width: 700px;
-  height: 500px;
+  width: 100%;
+  height: 540px;
  
 }  
 .glyphicon {
     font-size: 20px;
 }
 
-div.carousel-item > div.row > div.col-sm > p,div.carousel-item > div.row > div.col-sm >h2 {text-align: center;} 
+div.carousel-item > div.row > div.col-sm {
+    >p , >h2{text-align: center;}
+>h2 {font-family: 'Lobster';}} 
 div.carousel-item > div.row > div.col-sm > p >a  {text-decoration: none;}
 ul.list-carousel{list-style-type: none; margin: 5%;}
 
@@ -45,26 +47,32 @@ a.carousel-control-prev,a.carousel-control-next{ display: none; top: 50%; }
     
 }
 
-/*------------------------------- vertical carousel indicators ------------------------------
-.carousel-indicators{
-	display: none;
+/*------------------------------- vertical carousel indicators ------------------------------ */
+ul.carousel-indicators{
+	
     position:absolute;
-    transform-origin: 725px 425px;
-    padding-top: 10px;
-   
-    border: 2px solid red;
+    left: 120%;
+    bottom: 50%;
+    padding-top: 10px;    
     width: 200px;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
+    >li{
+        background-color: lightgray;
+        width: 15%;
+        margin-bottom: 5px;
+        margin-left: 15px;
+   margin-right: 15px;
+        &.active{background-color: #76e07a;  
+            width: 15%; margin-left: 15px;
+            margin-right: 15px;}
+    }
 }
-ul.carousel-indicators > li.active {
-	background-color: yellow;
-}
-ul.carousel-indicators > li {
-	background-color: black;
-*/
+@media only screen and (max-width: 900px) {
+    ul.carousel-indicators{display: none;}
 
+}
 
