@@ -1,8 +1,6 @@
    
 	<div class="container-fluid">
-		<h1>Welcome to my company website!</h1>
-        <div> animated text</div>
-
+		
 
         <div id="myCarousel" class="carousel  slide " data-ride="carousel" data-pause="hover" >
           
