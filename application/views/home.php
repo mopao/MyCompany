@@ -67,8 +67,26 @@
 		  </a>
 		</div>
 
-
-        <div>portfolio</div>		
+        <section id="portfolio">
+        	<h2>Portfolio</h2>
+	        <div  class="row" id="scrolling-image"> 
+	        	<div  >
+	        		<a href=""> <img src="<?php echo base_url(); ?>assets/images/soft_image.png" alt="software development" class="img-fluid" > </a>
+	        		  <div class="verticalCentered">site 1</div>
+	        		
+	        	</div>
+	        	<div  >
+	        		  <a href=""><img src="<?php echo base_url(); ?>assets/images/mobile.png" alt="mobile development" class="img-fluid" ></a>
+	        		   <div class="verticalCentered">site 2</div>
+	        		
+	        	</div>
+	        	<div  >
+	        		 <a href=""><img src="<?php echo base_url(); ?>assets/images/webdev.png" alt="web development" class="img-fluid"></a>
+	        		  <div class="verticalCentered">site 3</div>
+	        		
+	        	</div>
+	        </div>	
+        </section>	
 		
 	</div>
 

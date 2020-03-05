@@ -13,7 +13,7 @@
 
 /* line 13, ../sass/caroussel.scss */
 div#myCarousel {
-  margin-top: 65px;
+  margin-top: 62px;
 }
 
 /* line 18, ../sass/caroussel.scss */
@@ -44,6 +44,11 @@ ul.list-carousel {
 /* line 27, ../sass/caroussel.scss */
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%343A40' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+/* line 31, ../sass/caroussel.scss */
+div.container-fluid {
+  padding: 0px;
 }
 
 /* line 32, ../sass/caroussel.scss */
@@ -91,7 +96,7 @@ a.carousel-control-prev, a.carousel-control-next {
 /* line 55, ../sass/caroussel.scss */
 ul.carousel-indicators {
   position: absolute;
-  left: 120%;
+  left: 121%;
   bottom: 50%;
   padding-top: 10px;
   width: 200px;
@@ -101,7 +106,7 @@ ul.carousel-indicators {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-/* line 67, ../sass/caroussel.scss */
+/* line 68, ../sass/caroussel.scss */
 ul.carousel-indicators > li {
   background-color: lightgray;
   width: 15%;
@@ -109,7 +114,7 @@ ul.carousel-indicators > li {
   margin-left: 15px;
   margin-right: 15px;
 }
-/* line 73, ../sass/caroussel.scss */
+/* line 74, ../sass/caroussel.scss */
 ul.carousel-indicators > li.active {
   background-color: #76e07a;
   width: 15%;
@@ -118,7 +123,7 @@ ul.carousel-indicators > li.active {
 }
 
 @media only screen and (max-width: 900px) {
-  /* line 79, ../sass/caroussel.scss */
+  /* line 80, ../sass/caroussel.scss */
   ul.carousel-indicators {
     display: none;
   }

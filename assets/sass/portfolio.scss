@@ -1,0 +1,60 @@
+.verticalCentered {
+  position: absolute;
+  top: 50%;  
+  transform: translateY(-50%);
+
+}
+@keyframes slideshow {
+  0%    { left: -560px; }
+  100%  { left: 105%; }
+} 
+
+section#portfolio{
+	position: relative;
+	overflow: hidden;
+	transform: translate3d(0, 0, 0);
+	height: 200px;
+	
+	h2{
+		text-align: center;
+		font-family: 'Lobster';
+
+	}
+	div#scrolling-image {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 125px;
+		width: 564px;
+		border: solid red 2px;
+		margin-top: 56px;
+
+		animation: slideshow 30s linear infinite;
+		transform: translate3d(0, 0, 0);
+
+		> div{
+			position: relative;
+			width: 180px;
+			border: solid blue 1px;			
+			>a > img{height: 120px;width: 100%;}
+			text-align: center;
+            
+            margin-left: 10px;
+			&:hover{
+				opacity: 0.6;
+				cursor: pointer;
+				
+			}
+			&:first-child{margin-left: 0px;}
+			>div{ display: none;
+				font-weight: bold; 
+				opacity: 1; 
+				color: black; 
+				background-color: #ffffff;
+				width: 100%;
+
+			}
+			
+		}
+	}
+}

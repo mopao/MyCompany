@@ -7,6 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Welcome to My Company</title>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/caroussel.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/portfolio.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
@@ -20,6 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<script src="<?php echo base_url(); ?>assets/js/caroussel.js">	</script>
+  <script src="<?php echo base_url(); ?>assets/js/portfolio.js">  </script>
         <script type="text/javascript" src="<?php echo base_url();?>js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/styles.css"/>
        
