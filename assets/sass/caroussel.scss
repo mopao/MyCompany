@@ -3,7 +3,7 @@
   display:block;
   margin:auto;
   width: 100%;
-  height: 540px;
+ 
  
 }  
 .glyphicon {
@@ -12,12 +12,13 @@
 
 div#myCarousel{
     margin-top: 62px;
+    overflow: hidden;
 }
 
-div.carousel-item > div.row > div.col-sm {
+div.carousel-item > div.row > div {
     >p , >h2{text-align: center;}
 >h2 {font-family: 'Lobster';}} 
-div.carousel-item > div.row > div.col-sm > p >a  {text-decoration: none;}
+div.carousel-item > div.row > div > p >a  {text-decoration: none;}
 ul.list-carousel{list-style-type: none; margin: 5%;}
 
 
@@ -76,7 +77,7 @@ ul.carousel-indicators{
             margin-right: 15px;}
     }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1030px) {
     ul.carousel-indicators{display: none;}
 
 }

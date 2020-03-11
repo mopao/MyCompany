@@ -4,6 +4,18 @@
   transform: translateY(-50%);
 
 }
+@-webkit-keyframes slideshow {
+  0%    { left: -560px; }
+  100%  { left: 105%; }
+} 
+@-moz-keyframes slideshow {
+  0%    { left: -560px; }
+  100%  { left: 105%; }
+} 
+@-o-keyframes slideshow {
+  0%    { left: -560px; }
+  100%  { left: 105%; }
+} 
 @keyframes slideshow {
   0%    { left: -560px; }
   100%  { left: 105%; }
@@ -26,7 +38,7 @@ section#portfolio{
 		top: 0;
 		height: 125px;
 		width: 564px;
-		border: solid red 2px;
+		
 		margin-top: 56px;
 
 		animation: slideshow 30s linear infinite;
@@ -35,7 +47,7 @@ section#portfolio{
 		> div{
 			position: relative;
 			width: 180px;
-			border: solid blue 1px;			
+					
 			>a > img{height: 120px;width: 100%;}
 			text-align: center;
             

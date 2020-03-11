@@ -16,10 +16,10 @@
 
 		    <div class="carousel-item active">
 		      <div class="row">
-		      	<div class="col-sm">
-		           <img src="<?php echo base_url(); ?>assets/images/webdev.png" alt="web development" class="img-fluid">
+		      	<div class="col-xl ">
+		           <img id="img-webdev" src="<?php echo base_url(); ?>assets/images/webdev.png" alt="web development" class="img-responsive">
 		        </div>
-		        <div class="col-sm ">
+		        <div class="col-xl ">
 		        	<h2>D&eacute;veloppement web </h2>
 		        	<ul class="list-carousel"> 
 		        		<li> <span class="glyphicon glyphicon-arrow-right"></span> Exp&eacute;rience utilisateur de qualit&eacute;</li>
@@ -33,10 +33,10 @@
 		    </div>
 		    <div class="carousel-item">
 		    	<div class="row">
-		    		<div class="col-sm">
-		                <img src="<?php echo base_url(); ?>assets/images/mobile.png" alt="mobile development" class="img-fluid" >
+		    		<div class="col-xl">
+		                <img id="img-mobiledev"src="<?php echo base_url(); ?>assets/images/mobile.png" alt="mobile development" class="img-responsive" >
 		            </div>
-		            <div class="col-sm">
+		            <div class="col-xl">
 		            	<h2>D&eacute;veloppement mobile </h2>
 		            	<p>nous offrons un d&eacute;veloppement d’application native ,  compatible &agrave; plusieurs plateforme mobile (cross-platform).</p>
 		        	    <p > <a href="" class="btn btn-success btn-lg" role="button"> D&eacute;marrons votre projet </a></p> 
@@ -46,10 +46,10 @@
 		    </div>
 		    <div class="carousel-item">
 		    	<div class="row">
-		    		<div class="col-sm"> 
-		                <img src="<?php echo base_url(); ?>assets/images/soft_image.png" alt="software development" class="img-fluid" >
+		    		<div class="col-xl"> 
+		                <img id="img-softdev" src="<?php echo base_url(); ?>assets/images/soft_image.png" alt="software development" class="img-responsive" >
 		            </div>
-		            <div class="col-sm"> 
+		            <div class="col-xl"> 
 		            	<h2>D&eacute;veloppement logiciel </h2>
 		            	<p>nos programmeurs parlent une multitude de langages qui permettent de developper de maniere &eacute;fficace des solutions professionnelles de qualit&eacute; adapt&eacute;es &agrave; vos besoins.</p>
 		        	    <p> <a href="" class="btn btn-success btn-lg" role="button"> Démarrons votre projet </a></p> 
@@ -71,17 +71,17 @@
         	<h2>Portfolio</h2>
 	        <div  class="row" id="scrolling-image"> 
 	        	<div  >
-	        		<a href=""> <img src="<?php echo base_url(); ?>assets/images/soft_image.png" alt="software development" class="img-fluid" > </a>
+	        		<a href=""> <img src="<?php echo base_url(); ?>assets/images/soft_image.png" alt="software development" class="img-rounded" > </a>
 	        		  <div class="verticalCentered">site 1</div>
 	        		
 	        	</div>
 	        	<div  >
-	        		  <a href=""><img src="<?php echo base_url(); ?>assets/images/mobile.png" alt="mobile development" class="img-fluid" ></a>
+	        		  <a href=""><img src="<?php echo base_url(); ?>assets/images/mobile.png" alt="mobile development" class="img-rounded" ></a>
 	        		   <div class="verticalCentered">site 2</div>
 	        		
 	        	</div>
 	        	<div  >
-	        		 <a href=""><img src="<?php echo base_url(); ?>assets/images/webdev.png" alt="web development" class="img-fluid"></a>
+	        		 <a href=""><img src="<?php echo base_url(); ?>assets/images/webdev.png" alt="web development" class="img-rounded"></a>
 	        		  <div class="verticalCentered">site 3</div>
 	        		
 	        	</div>

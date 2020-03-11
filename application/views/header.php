@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <script src="<?php echo base_url(); ?>assets/js/portfolio.js">  </script>
         <script type="text/javascript" src="<?php echo base_url();?>js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/styles.css"/>
-       
+   <script>var base_url = '<?php echo base_url() ?>';</script>  
 </head>
 <body>
     <input type="hidden" id="base_url" value="<?php echo base_url(); ?>">
