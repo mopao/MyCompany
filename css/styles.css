@@ -253,3 +253,49 @@ a {
     display: none;
   }
 }
+
+.footer {
+    width: 100%;
+}
+
+.badge {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width:100px;
+  height: 100px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+
+.welcome_option{
+    background-color: green;
+    height: 800px;
+}
+
+.welcome_back{
+    padding-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.welcome_intro{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.div-option-button{
+    margin: 0 auto;
+    width: 50%;
+}
+.option_field{
+    float: left;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 100px;
+    height: 60px;
+    vertical-align: central;
+    width: 300px;
+    cursor: pointer;
+}
